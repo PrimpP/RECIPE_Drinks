@@ -1,0 +1,167 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner
+{
+    background-image: url(Images/Drinks.jpg);
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.navbar
+{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    width: 180px;
+    border-radius: 200px;
+    border: 2px solid #2f4f4f;
+}
+.navbar ul li 
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    font-size: 25px;
+    background-color: #2f4f4f;
+    padding:0px 10px 0px 10px;
+    border-radius: 5px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li ::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #F0D274;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li a:hover::after
+{
+    width: 100%;
+}
+.navbar ul li a:hover
+{
+    color: orange;
+}
+.content
+{
+    width: 100%;
+}
+h2
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 55px;
+    color: #2f4f4f; 
+}
+p
+{
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: tahoma;
+    color: #291304;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 50px;
+}
+img.dessert
+{
+    display: block;
+    margin: 0 auto;
+    border: 4px ridge white;
+    height: 400px;
+    width: 450px;
+}
+img:hover{ box-shadow: 0px 0px 20px #2f4f4f; }
+#header
+{
+    margin-bottom: 10px;
+}
+#div1
+{
+    background-color: #F0D274;
+    width: 30.33%;
+    float: left;
+    height: 660px;
+    margin-left: 25px;
+    border-radius: 10px;
+    border: #2f4f4f solid 5px;
+}
+#div2
+{
+    background-color: #F0D274;
+    width: 30.33%;
+    float: right;
+    height: 660px;
+    margin-right: 25px;
+    border-radius: 10px;
+    border: #2f4f4f solid 5px;
+}
+#div3
+{
+    background-color:#F0D274;
+    width: 30.33%;
+    height: 660px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: #2f4f4f solid 5px;
+}
+h2 a
+{
+    text-decoration: none;
+    color: #2f4f4f;
+}
+h2 a:hover
+{
+    text-decoration: underline green;
+    color: #2f4f4f;
+}
+h3
+{
+    text-align: center;
+}
+h3 a
+{
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+h3 a:hover
+{
+    background-color: white;
+    border-radius: 10px;
+    border: ridge 2px #F0D274;
+    font-size: 20px;
+}
+#div2 ul li
+{
+    margin-top: 20px;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #291304;
+}

@@ -1,0 +1,187 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner
+{
+    background-image: url(Images/Drinks.jpg);
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1
+{
+    display: inline-block;
+    font-size: 100px;
+    margin-left: 800px;
+    color: #2f4f4f;
+    background-color: #F0D274;
+    border-radius: 5px;
+    padding:0px 20px 0px 20px;
+    box-shadow: 0px 0px 20px #F0D274;
+}
+.navbar
+{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+}
+.logo
+{
+    width: 180px;
+    border-radius: 200px;
+    border: 2px solid #2f4f4f;
+    margin-right: 100px;
+}
+.navbar ul li 
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-size: 20px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li ::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #F0D274;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li a:hover::after
+{
+    width: 100%;
+}
+.navbar ul li a:hover
+{
+    color: orange;
+}
+.navbar2 ul li 
+{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: tahoma;
+}
+.navbar2 ul li a
+{
+    text-decoration: none;
+    background-color: #F0D274;
+    padding: 5px;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.navbar2 ul li ::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #F0D274;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar2 ul li a:hover::after
+{
+    width: 100%;
+}
+.navbar2 ul li a:hover
+{
+    color: white;
+}
+.content
+{
+    width: 100%;
+}
+img.drinks
+{
+    width:350px;
+    height: 350px;
+    border: #F0D274 2px solid;
+    margin-top: 5%;
+    margin-left: 12%;
+}
+img.drinks:hover
+{ 
+    box-shadow: 0px 0px 20px #F0D274; 
+}
+img.drinks2
+{
+    width:350px;
+    height: 350px;
+    border: #F0D274 2px solid;
+    margin-top: 5%;
+    margin-left: 12%;
+}
+img.drinks2:hover
+{ 
+    box-shadow: 0px 0px 20px #F0D274; 
+}
+img.drinks3
+{
+    width:350px;
+    height: 350px;
+    border: #F0D274 2px solid;
+    margin-top: 5%;
+    margin-left: 12%;
+}
+img.drinks3:hover
+{ 
+    box-shadow: 0px 0px 20px #F0D274; 
+}
+.MelonJuice
+{
+    margin-left: 340px;
+}
+.BukoJuice
+{
+    margin-left: 430px;
+}
+.MangoJuice
+{
+    margin-left: 450px;
+}
+.GuyabanoJuice
+{
+    margin-left: 300px;
+}
+.DalandanJuice
+{
+    margin-left: 400px;
+}
+.SagotGulaman
+{
+    margin-left: 450px;
+}
+.waterMelon
+{
+    margin-left: 290px;
+}
+.avocadoJuice
+{
+    margin-left: 400px;
+}
+.bukoPandanJuice
+{
+    margin-left: 400px;
+}
